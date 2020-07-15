@@ -1,0 +1,160 @@
+@import url(reset.css);
+
+/* misc. */
+body {
+    min-width: 690px;
+}
+
+.text {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header,
+.footer {
+    height: 85px;
+    width: 100%;
+    min-width: 575px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header .text,
+.footer p.text {
+    color: #E50043;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+
+/* header section */
+.header h1 {
+    margin-left: 50px;
+}
+
+.menu {
+    margin-right: 50px;
+}
+
+.menu a {
+    margin-left: 20px;
+}
+
+
+/* main image section */
+.mainImage-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+}
+
+.mainImage {
+    margin-top: 7%;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.mainImage-container p {
+    color: #E50043;
+    font-size: calc(100vw / 17);
+    align-self: center;
+    margin-top: -35%;
+}
+
+
+/* description section */
+.description-container {
+    display: flex;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container .description {
+    height: 190px;
+    min-width: 570px;
+    width: calc(100vw - 300px);
+    max-width: 900px;
+    border: 3px solid #F8BFC7;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.description-container .description .text {
+    letter-spacing: 0.05em;
+    padding: 20px 5px 0 20px;
+}
+
+
+/* showcase section */
+.showcase-container {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.product-1 {
+    margin-left: 50px;
+}
+
+.product-3 {
+    margin-right: 50px;
+}
+
+.showcase-container img {
+    height: 550px;
+}
+
+.showcase-container p {
+    margin: 15px 0 0 3px;
+    width: 180px;
+    text-align: center;
+}
+
+
+/* nutrition section */
+.nutrition-container {
+    display: flex;
+    height: 280px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nutrition-container .nutrition {
+    height: 190px;
+    min-width: 570px;
+    width: calc(100vw - 300px);
+    max-width: 800px;
+    border: 3px solid #F8BFC7;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.nutrition-container img {
+    height: 160px;
+    padding: 10px;
+    float: left;
+}
+
+.nutrition-container .text {
+    padding: 20px 5px 0 0;
+}
+
+
+/* footer */
+.footer {
+    position: relative;
+    height: 60px;
+    background-color: #F8BFC7;
+}
+
+.footer p.text {
+    color: white;
+    margin-left: 50px;
+    font-size: calc(100vw / 55);
+}
