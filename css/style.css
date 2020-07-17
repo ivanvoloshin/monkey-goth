@@ -125,10 +125,12 @@ body {
     height: 280px;
     justify-content: center;
     align-items: flex-start;
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
 }
 
 .nutrition-container .nutrition {
-    height: 190px;
+    /* height: 190px; */
     min-width: 570px;
     width: calc(100vw - 300px);
     max-width: 800px;
@@ -138,13 +140,14 @@ body {
 }
 
 .nutrition-container img {
-    height: 160px;
-    padding: 10px;
+    /* height: 160px; */
+    padding: 15px;
     float: left;
 }
 
 .nutrition-container .text {
-    padding: 20px 5px 0 0;
+    letter-spacing: 0.05em;
+    padding: 20px 10px 0 0;
 }
 
 
