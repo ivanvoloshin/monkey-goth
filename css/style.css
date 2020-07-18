@@ -3,9 +3,6 @@
 /* misc. */
 body {
     min-width: 690px;
-}
-
-.text {
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -44,6 +41,9 @@ body {
     margin-left: 20px;
 }
 
+.menu li {
+    display: inline;
+}
 
 /* main image section */
 .mainImage-container {
@@ -58,7 +58,7 @@ body {
     align-self: flex-start;
 }
 
-.mainImage-container p {
+.mainImage-container h1 {
     color: #E50043;
     font-size: calc(100vw / 17);
     align-self: center;
@@ -69,19 +69,18 @@ body {
 /* description section */
 .description-container {
     display: flex;
-    height: 370px;
     justify-content: center;
     align-items: center;
 }
 
 .description-container .description {
-    height: 190px;
     min-width: 570px;
     width: calc(100vw - 300px);
     max-width: 900px;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
     border-radius: 20px;
+    margin: 60px 0 60px 0;
 }
 
 .description-container .description .text {
@@ -89,15 +88,22 @@ body {
     padding: 20px 5px 0 20px;
 }
 
+.description-container .description p.text {
+    padding-bottom: 20px;
+}
 
 /* showcase section */
 .showcase-container {
-    height: 700px;
+    /* height: 700px; */
     max-width: 1250px;
     display: flex;
     margin: auto;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.showcase-container .product {
+    margin: 40px 0 80px 0;
 }
 
 .product-1 {
@@ -125,12 +131,10 @@ body {
     height: 280px;
     justify-content: center;
     align-items: flex-start;
-    /* margin-top: 30px; */
     margin-bottom: 40px;
 }
 
 .nutrition-container .nutrition {
-    /* height: 190px; */
     min-width: 570px;
     width: calc(100vw - 300px);
     max-width: 800px;
@@ -140,7 +144,6 @@ body {
 }
 
 .nutrition-container img {
-    /* height: 160px; */
     padding: 15px;
     float: left;
 }
