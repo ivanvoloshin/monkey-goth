@@ -55,7 +55,7 @@ body {
 .mainImage {
     margin-top: 7%;
     width: 100%;
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 
 .mainImage-container h1 {
@@ -122,10 +122,8 @@ body {
 /* nutrition section */
 .nutrition-container {
     display: flex;
-    height: 280px;
     justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .nutrition-container .nutrition {
@@ -138,7 +136,8 @@ body {
 }
 
 .nutrition-container img {
-    padding: 15px;
+    height: 150px;
+    padding: 20px 30px;
     float: left;
 }
 
