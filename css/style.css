@@ -7,7 +7,7 @@
 
 html {
     font-size: 62.5%;
-    
+
     --header-height: 85px;
     --section-min-width: 570px;
     --section-max-width: 800px;
@@ -43,15 +43,18 @@ body {
 
 /* header section */
 .header h1 {
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 5rem;
 }
 
 .menu {
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    margin-right: 5rem;
 }
 
 .menu a {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-left: 2rem;
 }
 
 .menu li {
@@ -92,8 +95,8 @@ body {
     border: 3px solid var(--color-pink);
     box-sizing: border-box;
     border-radius: 20px;
-    margin: 60px 0 60px 0;
-    padding: 20px;
+    margin: 6rem 0 6rem 0;
+    padding: 2rem;
     letter-spacing: 0.05em;
 }
 
@@ -103,7 +106,7 @@ body {
 }
 
 .description-container .description h1.text {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 /* showcase section */
@@ -115,23 +118,23 @@ body {
 }
 
 .showcase-container .product {
-    margin: 40px 0 80px 0;
+    margin: 4rem 0 8rem 0;
 }
 
 .product-1 {
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
 .product-3 {
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 
 .showcase-container img {
     height: 550px;
 }
 
-.showcase-container p {
-    margin: 15px 0 0 3px;
+.showcase-container figcaption {
+    margin: 1.5rem 0 0 .3rem;
     width: 180px;
     text-align: center;
     font-size: 1.3rem;
@@ -142,7 +145,7 @@ body {
 .nutrition-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 }
 
 .nutrition-container .nutrition {
@@ -151,22 +154,22 @@ body {
     max-width: var(--section-max-width);
     border: 3px solid var(--color-pink);
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 
 .nutrition-container img {
     height: 160px;
-    padding: 20px 30px;
+    padding: 2rem 3rem;
     float: left;
 }
 
 .nutrition-container h1.text {
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .nutrition-container .text {
     letter-spacing: 0.05em;
-    padding: 10px 10px 0 0;
+    padding: 1rem 1rem 0 0;
     font-weight: normal;
     font-size: 1.4rem;
 }
@@ -181,6 +184,6 @@ body {
 
 .footer p.text {
     color: white;
-    margin-left: 50px;
+    margin-left: 5rem;
     font-size: 2.5rem;
 }
