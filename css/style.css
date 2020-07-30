@@ -43,17 +43,14 @@ body {
 
 /* header section */
 .header h1 {
-    /* margin-left: 50px; */
     margin-left: 5rem;
 }
 
 .menu {
-    /* margin-right: 50px; */
     margin-right: 5rem;
 }
 
 .menu a {
-    /* margin-left: 20px; */
     margin-left: 2rem;
 }
 
