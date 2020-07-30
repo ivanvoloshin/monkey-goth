@@ -64,13 +64,18 @@ body {
 /* main image section */
 .mainImage-container {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 30%;
 }
 
 .mainImage {
+    background-image: url(../img/evian_origins_logo.png);
+    background-position: center;
+    background-size: cover;
     margin-top: var(--header-height);
     width: 100%;
+    height: 65vw;
+    min-height: 45rem;
+    display: flex;
+    justify-content: center;
 }
 
 .mainImage-container h1 {
@@ -78,7 +83,6 @@ body {
     font-weight: normal;
     font-size: calc(2.5rem + 2vw);
     align-self: center;
-    margin-top: -35%;
 }
 
 
@@ -129,12 +133,11 @@ body {
 }
 
 .showcase-container img {
-    height: 550px;
+    height: 55rem;
 }
 
 .showcase-container figcaption {
     margin: 1.5rem 0 0 .3rem;
-    width: 180px;
     text-align: center;
     font-size: 1.3rem;
 }
@@ -156,7 +159,7 @@ body {
 }
 
 .nutrition-container img {
-    height: 160px;
+    height: 16rem;
     padding: 2rem 3rem;
     float: left;
 }
