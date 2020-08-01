@@ -4,6 +4,15 @@
     }
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
 .page {
   /* эти единицы измерения мы изучим чуть позже */
     width: 100vw;
@@ -20,6 +29,11 @@
     background-size: cover;
     background-position: center;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    color: white;
 }
 
 .earth {
